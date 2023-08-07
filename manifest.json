@@ -1,0 +1,60 @@
+{
+   "action": {
+      "default_icon": {
+         "16": "icon-16.png",
+         "24": "icon-24.png",
+         "32": "icon-32.png"
+      },
+      "default_popup": "popup.html",
+      "default_title": "xCloud mouse and Keyboard CRACKED FREE"
+   },
+   "author": "CRACKED BY: Guimaraes",
+   "background": {
+      "service_worker": "js/background.js"
+   },
+   "commands": {
+      "profile-next": {
+         "description": "Next keyboard/mouse profile",
+         "suggested_key": {
+            "default": "Ctrl+Shift+Right",
+            "mac": "Command+Shift+Right"
+         }
+      },
+      "profile-prev": {
+         "description": "Previous keyboard/mouse profile",
+         "suggested_key": {
+            "default": "Ctrl+Shift+Left",
+            "mac": "Command+Shift+Left"
+         }
+      },
+      "show-hide-cheatsheet": {
+         "description": "Show/hide cheatsheet overlay",
+         "suggested_key": {
+            "default": "Ctrl+Shift+I",
+            "mac": "Command+Shift+I"
+         }
+      }
+   },
+   "content_scripts": [ {
+      "js": [ "js/vendor.js", "js/content_script.js" ],
+      "matches": [ "*://*.xbox.com/*", "https://gamepad-tester.com/" ],
+      "run_at": "document_start"
+   } ],
+   "description": "Play Xbox Cloud Gaming (Project xCloud) with a keyboard and mouse. FREE",
+   "icons": {
+      "128": "icon-128.png",
+      "16": "icon-16.png",
+      "48": "icon-48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAl+YftLWhC7T2byEQdLhkDKBjAo9yKA/UZIHLV3DctFJf40cONc3HDsWEKkv8kzANjiVcLFX1/nrUgZl4hItAfXS9GMcT4u9qynseYflQDNfGfCy/PcxJWKhK7b6L0HTxFU+pyoWLJJaVDG5VsKny2wmZVyKA+LHYxCp43/dxqle0WyqUTc7aNubsU+7Uptlpb/ZIsBtyDGpZrj5drnnPdFlPuJemUUt5U6RjWx54Dw8Sxe5VOYNXsnu7rCG4yIBSCZlZO7wr5IYmI2DmZBiZ890hvsNKhTnaczmYbE4yd8lRHOZbaSdnDWHMuGO/+lJGM7oSMsF4expoCpq8bdVXLwIDAQAB",
+   "manifest_version": 3,
+   "name": "xCloud Keayboard/Mouse free premium by Guimaraes",
+   "permissions": [ "storage" ],
+   "short_name": "xCloud KB&M FREE",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.0",
+   "web_accessible_resources": [ {
+      "matches": [ "https://www.xbox.com/*", "https://gamepad-tester.com/*" ],
+      "resources": [ "js/vendor.js", "js/injected.js", "css/injected.css", "css/shared.css", "icon-16.png", "images/*" ]
+   } ]
+}

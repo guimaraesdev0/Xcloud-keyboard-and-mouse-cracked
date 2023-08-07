@@ -1,0 +1,54 @@
+.explanation-modal-xmnk h1, h2, p, ol, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+.explanation-modal-xmnk {
+  color: black;
+  background-color: white;
+  font-family: sans-serif;
+  font-size: 16px;
+  margin: 20px;
+  padding: 0;
+  line-height: 1.6em;
+}
+
+.explanation-modal-xmnk strong {
+  font-weight: bold;
+  color: #333;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 4px;
+}
+
+.explanation-modal-xmnk h1, .explanation-modal-xmnk h2 {
+  padding-bottom: 18px;
+}
+
+.explanation-modal-xmnk h1 {
+  font-size: 2em;
+}
+
+.explanation-modal-xmnk p {
+  padding-bottom: 13px;
+}
+
+.explanation-modal-xmnk ol, .explanation-modal-xmnk ul {
+  display: block;
+  padding-bottom: 15px;
+  padding-left: 20px;
+}
+
+.explanation-modal-xmnk button.agree {
+  padding: 8px 15px;
+  font-size: 20px;
+  color: black;
+  background-color: lightgreen;
+  border: 1px solid #bbb;
+  cursor: pointer;
+}
+
+.explanation-modal-xmnk button.agree:disabled {
+  cursor: not-allowed;
+  background-color: #eee;
+  color: #bbb;
+}
