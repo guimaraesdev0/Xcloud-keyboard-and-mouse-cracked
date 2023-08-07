@@ -465,7 +465,7 @@ const getMenuItems = (isPaid, onPay) => [
     },
     {
         key: 'CheckUpdate',
-        text: '🔁',
+        text: '🔁 check updates',
         href: 'https://github.com/guimaraesdev0/Xcloud-keyboard-and-mouse-cracked/releases/tag/v1.0',
         target: '_blank',
         iconProps: { iconName: 'InfoSolid' },
